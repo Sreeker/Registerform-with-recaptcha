@@ -116,40 +116,5 @@
 			<!--</div>-->
 		</div>
 	</div>
-<script>
-	/*
-$('#register_form').submit(function(e){
-	e.preventDefault();
-	var name = $('#name').val();
-	var mobilenumber = $('#mobilenumber').val();
-	var email = $('#email').val();
-	var password = $('#password').val();
-	var confirm_password = $('#confirm_password').val();
-	var captcha = grecaptcha.getResponse();
-
-	$.post("register.php",
-	{
-		name : name,
-		mobilenumber : mobilenumber,
-		email : email,
-		password : password,
-		confirm_password : confirm_password,
-		captcha : captcha,
-	},
-	function(data){
-
-		$('#error').html(data);
-		/*$('#name').val('');
-		$('#mobilenumber').val('');
-		$('#email').val('');
-		$('#password').val('');
-		$('#confirm_password').val('');
-		grecaptcha.getResponse('');
-
-
-	});
-});
-*/
-</script>
 </body>
 </html>
