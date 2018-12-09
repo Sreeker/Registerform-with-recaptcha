@@ -22,7 +22,7 @@
     function post_captcha($user_response) {
         $fields_string = '';
         $fields = array(
-            'secret' => '6LdK7ioUAAAAAKds9qXDtDIhU_68ITuVDFidcqOo',//https://www.google.com/recaptcha/intro/v3.html
+            'secret' => '____________YOUR SECRET KEY_____________',//https://www.google.com/recaptcha/intro/v3.html
             'response' => $user_response
         );
         foreach($fields as $key=>$value)
@@ -107,7 +107,7 @@
 						<label for="confirm_password"  class="head">Confirm Password</label>
 						<input class="form-control login-box" name="confirm_password"  type="password" id="confirm_password"  />
 					</div>
-					<div class="g-recaptcha" data-sitekey="6LdK7ioUAAAAALhl0W49ilJea15o074QnSHF0UrH"></div>
+					<div class="g-recaptcha" data-sitekey="_________YOUR SITE KEY____________"></div>
 					<br>
 					<button type="submit" name= "submit" class="btn btn-primary" id="register_button">Register</button>
 					<p class="click">By clicking this button, you are agree to our  <a href="#">Policy Terms and Conditions.</a></p> 
